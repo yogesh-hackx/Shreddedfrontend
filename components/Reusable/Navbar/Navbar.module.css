@@ -1,0 +1,21 @@
+.nbMain{
+    width: 100%;
+    background: rgba(63,56,64);
+    color: white;
+    padding: 5px 10px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+} 
+
+.nbLogo{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.nbList{
+    font-size: 20px;
+    float: right;
+    margin: 10px 70px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,26 @@
+.footMain{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(71,71,71);
+    margin: 100px 0px 0px 0px;
+    color: white;
+    display: flex
+}
+
+.fCol1{
+    padding-top: 90px;
+    padding-left: 150px;
+}
+
+.fCol2{
+    padding-top: 90px;
+    padding-left: 170px;
+}
+
+.fCol1:hover{
+    cursor: pointer;
+}
+
+.fCol2:hover{
+    cursor: pointer;
+}
