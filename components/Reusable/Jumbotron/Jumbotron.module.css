@@ -1,17 +1,54 @@
-.jbMain{
+.jbMain {
     width: 100%;
     height: 400px;
-    background-color: rgb(71,71,71);
+    background-color: rgb(71, 71, 71);
     color: white;
 }
-.jbOr{
+.jbOr {
     width: 100%;
     height: 50px;
-    background: rgb(253,107,103);
+    background: rgb(253, 107, 103);
 }
-.jbContent{
+.jbContent {
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
-    margin-left: 140px;
+    width: 100%;
+}
+.header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 85px;
+    text-align: center;
+}
+.jbCol {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.light {
+    font-weight: 200;
+}
+.tagline, .taglineMobile {
+    font-weight: 300px;
+    letter-spacing: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .headerVector {
+        display: none;
+    }
+    .header {
+        font-size: 48px;
+        line-height: 45px;
+    }
+    .jbContent {
+        justify-content: center;
+    }
+
 }
