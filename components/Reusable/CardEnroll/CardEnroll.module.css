@@ -1,43 +1,35 @@
-.ceBg{
-    background-color: rgba(71, 71, 71, 0.2);
-    width: 100%;
-    height: 450px;
-    margin-top: 180px;
-    padding: 60px 0px;
-}
-
-
-.ceMain{
-    /* position: absolute; */
-    left: 100px;
-    width: 344px;
-    height: 334px;
-    background: white;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-.ceTitle{
-    background: rgb(10,43,52);
-    color: white;
-    padding: 20px 20px;
-    font-weight: 600;
-    font-size: 23px;
-}
-
-.cePrice{
-    margin: 50px 70px;
+.card {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 350px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.planDetail {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.15px;
+}
+.priceContainer {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    font-weight: 900;
+}
+.enrollButton {
+    background: #fd6b67;
+    border-radius: 4px;
+    padding: 4px 20px;
+    font-weight: 500;
+    color: #fff;
 }
 
-.ceEnroll{
-    margin: 0px 80px;
-    padding: 10px 20px;
-    letter-spacing: 3px;
-    background-color: black;
-    color: white;
-    font-size: 15px;
-}
-
-.ceEnroll:hover{
-   cursor: pointer;
+@media only screen and (max-width: 900px) {
+    .card {
+        margin: 20px 0;
+        width: 330px;
+    }
 }
