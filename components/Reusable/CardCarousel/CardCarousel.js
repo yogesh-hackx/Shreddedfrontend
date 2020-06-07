@@ -34,7 +34,6 @@ const CardCarousel = () => {
                     containerClass="container-with-dots"
                     itemClass="image-item"
                     autoPlay={true}
-                    //   deviceType={this.props.deviceType}
                 >
                     <BlogCard />
                     <BlogCard />
@@ -42,9 +41,6 @@ const CardCarousel = () => {
                     <BlogCard />
                     <BlogCard />
                     <BlogCard />
-                    {/* {images.map((src, index) => (
-                        <img src={src} key={index} />
-                    ))} */}
                 </Carousel>
             </div>
         </>
