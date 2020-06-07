@@ -6,7 +6,7 @@ const BlogCard = (props) => {
             <div className={styles.card}>
                 <div className={styles.coverContainer}>
                     <img
-                        src="/assets/sampleCover.png"
+                        src="/assets/sampleCover.jpg"
                         alt="coverImage"
                         className={styles.coverImage}
                     />
