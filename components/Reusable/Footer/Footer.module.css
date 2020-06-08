@@ -9,12 +9,12 @@
 
 .fCol1{
     padding-top: 90px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
 
 .fCol2{
     padding-top: 90px;
-    padding-left: 170px;
+    /* padding-left: 170px; */
 }
 
 .fCol1:hover{

@@ -1,4 +1,4 @@
-
+import "react-multi-carousel/lib/styles.css";
 import '../public/css/styles.css';
 
 // This default export is required in a new `pages/_app.js` file.
