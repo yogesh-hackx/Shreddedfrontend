@@ -9,7 +9,7 @@ const LoginPage = () => {
     const [formInput, setFormInput] = useState({
         email: "",
         password: "",
-    }); console.log(formInput)
+    });
     const handleShowPassword = () => {
         setShowPassword(!showPassword);
     };

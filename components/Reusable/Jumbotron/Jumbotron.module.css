@@ -52,3 +52,29 @@
     }
 
 }
+
+
+@media screen and (min-width:902px) and (max-width:1000px){
+    .headerVector{
+        height: 400px;
+        margin-top: 50px;
+    }
+    .header{
+        font-size: 70px;
+    }
+    .tagline,.taglineMobile{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1200px){
+   
+   .tagline,.taglineMobile{
+       font-size: 15px;
+   }
+   .headerVector{
+    height: 400px;
+    margin-top: 50px;
+}
+}
