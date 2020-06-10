@@ -39,7 +39,7 @@ const SignUpPage = () => {
             </div>
             <div className={styles.col2}>
                 <div className={styles.supForm}>
-                    <h1 style={{ fontFamily: 'Josefin Sans', fontSize: 50 }}>Signup Now</h1>
+                    <h1 style={{ fontSize: 50 }}>Signup Now</h1>
                     <form onSubmit={formHandler}>
                         <div className={styles.supElements}>
                             <TextField
