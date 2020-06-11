@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --progressBar: rgb(255, 194, 192);
+    --progressBar: #ffc2c0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
     background-color: #f5f9fb;
     font-family: 'Poppins', sans-serif;
@@ -25,10 +25,22 @@ body {
 
 .ce-paragraph {
     margin: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    letter-spacing: -0.003em;
+    line-height: 32px;
+}
+
+.ce-paragraph::selection {
+    background-color: #ffc2c0;
 }
 
 .codex-editor {
     padding: 0 18px;
+}
+
+.react-share__ShareButton {
+    margin: 0 5px;
 }
 
 /* Make clicks pass-through */
@@ -116,5 +128,10 @@ body {
 @media only screen and (max-width: 900px) {
     .container {
         padding: 0 4px;
+    }
+
+    .ce-paragraph {
+        font-size: 19px;
+        line-height: 28px;
     }
 }
