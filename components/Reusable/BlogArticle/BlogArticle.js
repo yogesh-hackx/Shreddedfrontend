@@ -6,12 +6,12 @@ const BlogArticle = ({ content }) => {
     const blogHtmlData = f_editorjs_convert_json_to_html(jsonBlogData);
     return (
         <div className={styles.container}>
+            <h1 className={styles.title}>{content.title}</h1>
             <img
                 src={content.headerImgUrl}
                 className={styles.headerImage}
                 alt=""
             />
-            <h1 className={styles.title}>{content.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: blogHtmlData }}></div>
         </div>
     );

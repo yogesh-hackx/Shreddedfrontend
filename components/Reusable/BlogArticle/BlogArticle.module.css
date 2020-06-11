@@ -1,4 +1,4 @@
-.container {
+.container{
     max-width: 800px;
     margin: 55px auto;
     /* padding: 15px; */
@@ -9,7 +9,9 @@
     max-width: 100%;
 }
 
-.title {
-    margin: 10px 0 40px 0;
-    padding: 0 10px;
+.title{
+    margin: 100px 0 40px 0;
+    padding: 10px 10px;
+    font-family: "Josefin Sans";
+    font-weight: 900;
 }

@@ -2,7 +2,6 @@ import CardBlog from '../../components/Reusable/CardBlog/CardBlog';
 import fetch from 'isomorphic-fetch';
 
 const blog = (props) => {
-    console.log(props);
     return (
         <>
             {props.json.map((blog) => {

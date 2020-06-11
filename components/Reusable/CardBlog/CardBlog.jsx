@@ -6,13 +6,15 @@ const CardBlog = (props) => {
         <div className={styles.cbBack}>
             <Link href={`/blogs/${props.link}`}>
                 <div className={styles.cbMain}>
-                    <img
-                        height="200px"
-                        width="300px"
-                        className={styles.cbImg}
-                        src={props.image}
-                        alt="img"
-                    />
+                    <div className={styles.cbImge}>
+                        <img
+                            height="200px"
+                            width="300px"
+                            className={styles.cbImg}
+                            src={props.image}
+                            alt="img"
+                        />
+                    </div>
                     <div className={styles.cbContent}>
                         <h3 className={styles.cbTitle}>{props.title}</h3>
                         <p className={styles.cbDes}>{props.des}</p>

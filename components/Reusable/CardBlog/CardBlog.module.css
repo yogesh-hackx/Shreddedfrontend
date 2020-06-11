@@ -1,7 +1,9 @@
 .cbBack{
    display: flex;
    justify-content: center;
-   margin-top: 80px;
+   align-items: center;
+   margin-top: 100px;
+   margin-bottom: 20px;
 }
 
 .cbMain{
@@ -11,10 +13,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .cbImg{
+    height: 200px;
+    widows: 300px;
     border-radius: 5px;
     background-size: cover;
 }
@@ -31,7 +35,6 @@
 }
 .cbTitle{
     font-size: 25px;
-    font-family: "Josefin Sans";
     font-weight: bolder;
 }
 
@@ -43,4 +46,58 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
+}
+
+
+@media screen and (min-width:320px) and (max-width:570px){
+    .cbMain{
+        height: 200px;
+        width: 330px;
+    }
+    .cbImg{
+        height: 130px;
+        width:130px;
+    }
+    .cbDes{
+        font-size: 9px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .cbTitle{
+        font-size: 13px;
+    }
+    .cbBtn{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:571px) and (max-width:700px){
+    .cbMain{
+        height: 200px;
+        width: 530px;
+    }
+    .cbImg{
+        height: 180px;
+        width:230px;
+    }
+    .cbDes{
+        font-size: 13px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .cbTitle{
+        font-size: 15px;
+    }
+    .cbBtn{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px){
+    .cbTitle{
+        font-size: 19px;
+    }
+   
 }
