@@ -1,0 +1,15 @@
+.container {
+    max-width: 800px;
+    margin: 55px auto;
+    /* padding: 15px; */
+}
+
+.headerImage {
+    min-width: 80px;
+    max-width: 100%;
+}
+
+.title {
+    margin: 10px 0 40px 0;
+    padding: 0 10px;
+}
