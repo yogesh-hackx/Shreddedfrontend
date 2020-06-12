@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Button from '@material-ui/core/Button';
 import styles from './CardBlog.module.css';
 
 const CardBlog = (props) => {
@@ -20,9 +21,10 @@ const CardBlog = (props) => {
                         </div>
                         <div className={styles.buttonArea}>
                             <Link href={`/blogs/${props.link}`}>
-                                <button className={styles.cbBtn}>
-                                    Read more
-                                </button>
+                                {/* <div className={styles.cbBtn}> */}
+                                    <Button>Read more</Button>
+                                {/* </div> */}
+                                
                             </Link>
                         </div>
                     </div>
