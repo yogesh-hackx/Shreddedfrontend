@@ -4,17 +4,19 @@ import fetch from 'isomorphic-fetch';
 const blog = (props) => {
     return (
         <>
-            {props.json.map((blog) => {
-                return (
-                    <CardBlog
-                        key={blog._id}
-                        title={blog.title}
-                        image={blog.headerImgUrl}
-                        des={blog.excerpt}
-                        link={blog.slug}
-                    />
-                );
-            })}
+            <div className="topMargin">
+                {props.json.map((blog) => {
+                    return (
+                        <CardBlog
+                            key={blog._id}
+                            title={blog.title}
+                            image={blog.headerImgUrl}
+                            des={blog.excerpt}
+                            link={blog.slug}
+                        />
+                    );
+                })}
+            </div>
         </>
     );
 };

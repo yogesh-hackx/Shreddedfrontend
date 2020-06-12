@@ -2,102 +2,72 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 100px;
-   margin-bottom: 20px;
+   margin: 7px auto;
+   border-radius: 4px;
+   border: 2px solid #4646461f;
+   max-width: 700px;
 }
 
 .cbMain{
-    width: 700px;
-    height: 240px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0,0.3);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cbImge {
+    height: 220px;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 100px;
 }
 
 .cbImg{
-    height: 200px;
-    widows: 300px;
-    border-radius: 5px;
-    background-size: cover;
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
 }
 
 .cbContent{
-    margin: 0px 20px;
+    margin: 15px 20px;
 }
 
 .cbDes{
-    font-size: 13px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin: 7px 0;
     color: grey;
 }
 .cbTitle{
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.buttonArea {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .cbBtn{
-    background-color: rgba(0,0,0,0.8);
     padding: 10px 10px;
-    color: whitesmoke;
+    color: rgba(0,0,0,0.8);
     border: 0px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
 }
 
-
-@media screen and (min-width:320px) and (max-width:570px){
-    .cbMain{
-        height: 200px;
-        width: 330px;
+@media only screen and (min-width: 500px) {
+    .cbImge {
+        height: 250px;
+        width: inherit;
+        object-fit: cover;
+        border-radius: 100px;
     }
+    
     .cbImg{
-        height: 130px;
-        width:130px;
-    }
-    .cbDes{
-        font-size: 9px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    .cbTitle{
-        font-size: 13px;
-    }
-    .cbBtn{
-        padding: 5px 5px;
-        font-size: 10px;
-    }
-}
-
-@media screen and (min-width:571px) and (max-width:700px){
-    .cbMain{
-        height: 200px;
-        width: 530px;
-    }
-    .cbImg{
-        height: 180px;
-        width:230px;
-    }
-    .cbDes{
-        font-size: 13px;
-        margin-top: 8px;
-        margin-bottom: 8px;
-    }
-    .cbTitle{
-        font-size: 15px;
-    }
-    .cbBtn{
-        padding: 10px 10px;
-        font-size: 13px;
-    }
-}
-
-@media screen and (min-width:701px) and (max-width:900px){
-    .cbTitle{
-        font-size: 19px;
-    }
-   
+        object-fit: cover;
+        height: 250px;
+        width: 100%;
+    }    
 }
