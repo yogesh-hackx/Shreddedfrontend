@@ -47,6 +47,10 @@ body {
     margin: 0 5px;
 }
 
+.MuiButton-label {
+    font-weight: 700;
+}
+
 /* Make clicks pass-through */
 #nprogress {
     pointer-events: none;
