@@ -26,32 +26,32 @@ const BlogArticle = ({ content }) => {
                     <FacebookShareButton
                         url={`https://shredded.now.sh/blogs/${content.slug}`}
                     >
-                        <FacebookIcon round={true} size={28} />
+                        <FacebookIcon bgStyle={{ fill: "#3a3a3a"}} round={true} size={28} />
                     </FacebookShareButton>
                     <WhatsappShareButton
                         url={`https://shredded.now.sh/blogs/${content.slug}`}
                     >
-                        <WhatsappIcon round={true} size={28} />
+                        <WhatsappIcon bgStyle={{ fill: "#3a3a3a"}} round={true} size={28} />
                     </WhatsappShareButton>
                     <LinkedinShareButton
                         url={`https://shredded.now.sh/blogs/${content.slug}`}
                     >
-                        <LinkedinIcon round={true} size={28} />
+                        <LinkedinIcon bgStyle={{ fill: "#3a3a3a"}} round={true} size={28} />
                     </LinkedinShareButton>
                     <TelegramShareButton
                         url={`https://shredded.now.sh/blogs/${content.slug}`}
                     >
-                        <TelegramIcon round={true} size={28} />
+                        <TelegramIcon bgStyle={{ fill: "#3a3a3a"}} round={true} size={28} />
                     </TelegramShareButton>
                     <TwitterShareButton
                         url={`https://shredded.now.sh/blogs/${content.slug}`}
                     >
-                        <TwitterIcon round={true} size={28} />
+                        <TwitterIcon bgStyle={{ fill: "#3a3a3a"}} round={true} size={28} />
                     </TwitterShareButton>
                     <RedditShareButton
                         url={`https://shredded.now.sh/blogs/${content.slug}`}
                     >
-                        <RedditIcon round={true} size={28} />
+                        <RedditIcon bgStyle={{ fill: "#3a3a3a"}} round={true} size={28} />
                     </RedditShareButton>
                 </div>
                 <div className={styles.timeStamp}>
